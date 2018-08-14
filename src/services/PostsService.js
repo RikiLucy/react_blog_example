@@ -1,4 +1,4 @@
-const config = require('../config/config');
+import config from '../config/config.json';
 
 class PostsService {
   static async getPostsByUserId(id) {
